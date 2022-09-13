@@ -1,0 +1,63 @@
+body {
+    color: #29323f;
+    background-image: url(img/photo-of-people-sitting-near-wooden-table-3183190.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.frm {
+    margin: 2% 0 0 0;
+    opacity: 1;
+}
+
+.auto {
+    font-size: 50px;
+    min-height: 100px;
+    min-width: 100px;
+}
+
+table {
+    margin-top: 0px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+    border-spacing: 0px;
+    background-color: #fff;
+    transition-duration: 0.3s;
+}
+
+table:hover {
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+th {
+    background-color: seagreen;
+    color: #fff;
+    padding: 6px 10px 6px 10px;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+td {
+    padding: 10px 15px 10px 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+.history{
+    max-height: 50%;
+    overflow: auto;
+    width: inherit;
+    display: inline-block;
+}
+
+.un{
+    margin:0 0 0 3;
+    padding:1 8 1 8;
+    background-color:#008cba;
+    color:#fff;
+    border-radius:500px;
+    font-size:14px;
+}

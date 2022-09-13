@@ -1,0 +1,333 @@
+@font-face {
+	font-family: '77-Essential-Icons';
+	src:url('fonts/77-Essential-Icons.eot?-3rv21r');
+	src:url('fonts/77-Essential-Icons.eot?#iefix-3rv21r') format('embedded-opentype'),
+		url('fonts/77-Essential-Icons.woff?-3rv21r') format('woff'),
+		url('fonts/77-Essential-Icons.ttf?-3rv21r') format('truetype'),
+		url('fonts/77-Essential-Icons.svg?-3rv21r#77-Essential-Icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: '77-Essential-Icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Plus:before {
+	content: "\2b";
+}
+
+.icon-Attachment:before {
+	content: "\61";
+}
+
+.icon-Reply:before {
+	content: "\72";
+}
+
+.icon-BarGraph:before {
+	content: "\67";
+}
+
+.icon-Book:before {
+	content: "\52";
+}
+
+.icon-Bookmark:before {
+	content: "\42";
+}
+
+.icon-Briefcase:before {
+	content: "\62";
+}
+
+.icon-BrowserWindow:before {
+	content: "\77";
+}
+
+.icon-Calendar:before {
+	content: "\63";
+}
+
+.icon-Camera:before {
+	content: "\43";
+}
+
+.icon-Cancel:before {
+	content: "\78";
+}
+
+.icon-Clock:before {
+	content: "\74";
+}
+
+.icon-CommentwithLines:before {
+	content: "\6d";
+}
+
+.icon-Comment:before {
+	content: "\4d";
+}
+
+.icon-Computer:before {
+	content: "\31";
+}
+
+.icon-Controls:before {
+	content: "\53";
+}
+
+.icon-Conversation:before {
+	content: "\73";
+}
+
+.icon-CreditCard:before {
+	content: "\a3";
+}
+
+.icon-Crosshair:before {
+	content: "\54";
+}
+
+.icon-Diary:before {
+	content: "\6e";
+}
+
+.icon-DownArrow:before {
+	content: "\64";
+}
+
+.icon-Email:before {
+	content: "\65";
+}
+
+.icon-Folder:before {
+	content: "\66";
+}
+
+.icon-Forward:before {
+	content: "\46";
+}
+
+.icon-Heart:before {
+	content: "\33";
+}
+
+.icon-Home:before {
+	content: "\68";
+}
+
+.icon-Inbox:before {
+	content: "\44";
+}
+
+.icon-Layers:before {
+	content: "\4c";
+}
+
+.icon-LeftArrow:before {
+	content: "\3c";
+}
+
+.icon-Link:before {
+	content: "\6c";
+}
+
+.icon-List:before {
+	content: "\3a";
+}
+
+.icon-LocationMarker:before {
+	content: "\50";
+}
+
+.icon-Location:before {
+	content: "\4b";
+}
+
+.icon-Map:before {
+	content: "\71";
+}
+
+.icon-Medal:before {
+	content: "\48";
+}
+
+.icon-Menu:before {
+	content: "\3d";
+}
+
+.icon-Microphone:before {
+	content: "\41";
+}
+
+.icon-Minus:before {
+	content: "\2d";
+}
+
+.icon-Options:before {
+	content: "\6f";
+}
+
+.icon-MoreOptions:before {
+	content: "\4f";
+}
+
+.icon-Music:before {
+	content: "\4e";
+}
+
+.icon-Mute:before {
+	content: "\58";
+}
+
+.icon-Notification:before {
+	content: "\6a";
+}
+
+.icon-Padlock:before {
+	content: "\6b";
+}
+
+.icon-Document:before {
+	content: "\57";
+}
+
+.icon-Phone:before {
+	content: "\69";
+}
+
+.icon-Photo:before {
+	content: "\70";
+}
+
+.icon-PieChart:before {
+	content: "\47";
+}
+
+.icon-Pin:before {
+	content: "\4a";
+}
+
+.icon-View:before {
+	content: "\531";
+}
+
+.icon-Printer:before {
+	content: "\532";
+}
+
+.icon-Profile:before {
+	content: "\533";
+}
+
+.icon-Rearrange:before {
+	content: "\7a";
+}
+
+.icon-Refresh:before {
+	content: "\7e";
+}
+
+.icon-RightArrow:before {
+	content: "\3e";
+}
+
+.icon-Save:before {
+	content: "\79";
+}
+
+.icon-Search:before {
+	content: "\59";
+}
+
+.icon-Settings:before {
+	content: "\32";
+}
+
+.icon-Share:before {
+	content: "\40";
+}
+
+.icon-Shop:before {
+	content: "\51";
+}
+
+.icon-Signals:before {
+	content: "\7b";
+}
+
+.icon-Signal:before {
+	content: "\7c";
+}
+
+.icon-Volume:before {
+	content: "\5a";
+}
+
+.icon-Star:before {
+	content: "\2a";
+}
+
+.icon-iPad:before {
+	content: "\49";
+}
+
+.icon-Tag:before {
+	content: "\45";
+}
+
+.icon-Checkmark:before {
+	content: "\2f";
+}
+
+.icon-Toggle:before {
+	content: "\60";
+}
+
+.icon-Trash:before {
+	content: "\5f";
+}
+
+.icon-Typing:before {
+	content: "\2e";
+}
+
+.icon-UpArrow:before {
+	content: "\5e";
+}
+
+.icon-User:before {
+	content: "\75";
+}
+
+.icon-Users:before {
+	content: "\55";
+}
+
+.icon-VideoCamera:before {
+	content: "\56";
+}
+
+.icon-Video:before {
+	content: "\76";
+}
+
+.icon-Warning:before {
+	content: "\21";
+}
+
+.icon-CreateNew:before {
+	content: "\7d";
+}
+

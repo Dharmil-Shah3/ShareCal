@@ -1,0 +1,91 @@
+table {
+    border-spacing: 0px;
+    margin: 10vh 0 15vh 0;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.2);
+    background: none;
+}
+
+tr {
+    z-index: 1;
+    background-color: #eee;
+    opacity: 0.9;
+    transition-duration: 0.2s;
+}
+
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+
+tr:hover,
+tr:nth-child(even):hover {
+    opacity: 1;
+    background-color: #fff;
+}
+
+th {
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    background-color: #008cba;
+    font-weight: 100;
+}
+
+td {
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+}
+
+td a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    opacity: 1;
+    background-color: seagreen;
+    transition-duration: 0.3s;
+}
+
+td a:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+}
+
+.del {
+    background-color: #ff3333;
+}
+
+.b {
+    color: #fff;
+    text-decoration: none;
+    opacity: 1;
+    transition-duration: 0.3s;
+    background: #008cba;
+    padding: 14px 16px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    right: 91;
+}
+
+.b:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #333;
+    background: linear-gradient(#fff, #fff);
+}
+
+.desc {
+    min-width: 40vh;
+}
+
+.sub {
+    min-width: 25vh;
+}
+
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}

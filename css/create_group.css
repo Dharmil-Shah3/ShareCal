@@ -1,0 +1,43 @@
+body {
+    font-family: century gothic, sans-serif;
+    color: #29323f;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+table {
+    border-radius: 5px;
+    margin-top: 10%;
+    border: none;
+    height: auto;
+    width: 50%;
+    background-color: #fff;
+    padding: 5px;
+    border: none;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+tr {
+    background: none;
+}
+
+td {
+    padding: 5px;
+}
+
+input {
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+h3 {
+    display: inline-block;
+    margin-top: 30px;
+    color: #fff;
+    padding: 10px;
+    background-color: #333;
+}

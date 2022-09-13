@@ -1,0 +1,64 @@
+body {
+    font-family: century gothic, sans-serif;
+    color: #29323f;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.frm {
+    margin: 5% 0 0 0;
+    opacity: 1;
+}
+.auto {
+    font-size: 50px;
+    min-height: 100px;
+    min-width: 100px;
+}
+table {
+    margin-top: 50px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+    border-spacing: 0px;
+    background-color: #fff;
+    transition-duration: 0.2s;
+    max-width: 60%;
+}
+table:hover {
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.6);
+}
+th {
+    background-color: seagreen;
+    color: #fff;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 15px;
+}
+tr {
+    transition-duration: 0.2s;
+}
+td {
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+}
+tr:nth-child(even) {
+    background-color: #ccc;
+}
+tr:hover {
+    background-color: #fff;
+}
+td a {
+    text-decoration: none;
+    width: 50px;
+    cursor: pointer;
+    margin-top: 0;
+    transition: 0.3s;
+    padding: 5px 10px 5px 10px;
+    background-color: seagreen;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    min-width: auto;
+}
+td a:hover {
+    background-color: dodgerblue;
+    color: #fff;
+}

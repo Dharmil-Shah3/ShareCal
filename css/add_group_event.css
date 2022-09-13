@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(blue, darkcyan);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+table {
+    border-radius: 5px;
+    border: none;
+    height: auto;
+    width: 70%;
+    background-color: #fff;
+    margin-top: 8%;
+    padding: 5px;
+    border: none;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+tr {
+    background: none;
+}
+
+td {
+    padding: 5px;
+}
+
+input {
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.tooltiptext {
+    visibility: hidden;
+    width: auto;
+    text-align: center;
+    padding: 5px;
+    /* Position the tooltip */
+    position: relative;
+    z-index: 1;
+    font-size: 15px;
+    opacity: 0;
+    transition: opacity 0.6s;
+    top: -80;
+    left: 220;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+textarea {
+    max-width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid seagreen;
+    background-color: #ddd;
+    width: 100%;
+    font-size: 15px;
+    outline: none;
+}

@@ -1,0 +1,59 @@
+h3 {
+    color: #fff;
+    background-color: #333;
+    padding: 5px 10px 5px 10px;
+    position: absolute;
+    display: inline;
+}
+.frm {
+    top: 15%;
+}
+td {
+    padding-top: 10px;
+}
+th {
+    font-size: 25px;
+    font-weight: 100;
+}
+tr {
+    text-align: center;
+}
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+}
+.s {
+    width: 300px;
+}
+body {
+    color: #29323f;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+p {
+    margin: 20 0 0 20;
+    position: absolute;
+    font-size: 40px;
+}
+p:hover {
+    cursor: pointer;
+}
+.login {
+    box-shadow: 3px 7px 15px rgba(0, 0, 0, 0.2);
+    align-content: flex-end;
+    text-align: right;
+    padding: 0px 5px 0px 5px;
+    margin: 0;
+    background-color: #fff;
+    transition-duration: 0.3s;
+}
+.login:hover {
+    box-shadow: 3px 7px 15px rgba(0, 0, 0, 0.4);
+}
+.login input {
+    font-size: 15px;
+}

@@ -1,0 +1,139 @@
+body {
+    background-color: #111;
+    margin: 0;
+    font-family: century gothic, sans-serif;
+}
+
+table {
+    border-spacing: 2px;
+    background: none;
+    transition-duration: 0.3s;
+    min-width: 100%;
+}
+
+.panel {
+    position: fixed;
+    top: 6.3%;
+    display: inline-block;
+    min-height: 93.70%;
+    min-width: 28.96%;
+    max-width: 28.96%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cont {
+    z-index: -1;
+    float: right;
+    background-color: #111;
+    min-width: 70%;
+    max-width: 70%;
+    max-height: 91%;
+    min-height: 91%;
+}
+
+.chat {
+    background: none;
+    opacity: 1;
+    max-height: 86%;
+    min-height: 86%;
+    overflow: auto;
+}
+
+input[type="submit"],
+.send {
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    min-width: 50px;
+    padding: 10px;
+    font-size: 17px;
+    color: #fff;
+    background-color: dodgerblue;
+    outline-color: #fff;
+    width: 90px;
+}
+
+input[type="submit"]:hover,
+.send:hover {
+    cursor: pointer;
+    background-color: deepskyblue;
+}
+
+.msg {
+    outline: none;
+    border: 1px solid white;
+    color: #fff;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #222;
+    font-size: 15px;
+    margin: 0 5 0 5;
+    width: 88%;
+    padding: 10px;
+}
+
+h1 {
+    color: #eee;
+}
+
+.auto {
+    max-height: 50%;
+    overflow: auto;
+}
+
+.s1 {
+    z-index: 1;
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    background-color: limegreen;
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    min-width: 100%;
+    padding: 15 0 15 0;
+}
+
+.s2 {
+    color: #fff;
+    background-color: #222;
+    opacity: 0.6;
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    min-width: 100%;
+    padding: 12 0 12 0;
+}
+
+.s2 p {
+    color: #ffffff;
+}
+
+button {
+    min-width: 100%;
+    max-width: 100%;
+    float: right;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    padding: 10 0 10 0;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    opacity: 1;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+}
+
+.l {
+    background-color: #ff3333;
+}

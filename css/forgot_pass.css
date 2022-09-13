@@ -1,0 +1,36 @@
+body {
+    color: #29323f;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.frm {
+    top: 15%;
+}
+
+td {
+    padding-top: 20px;
+}
+
+th {
+    font-size: 25px;
+    font-weight: 100;
+}
+
+tr {
+    text-align: center;
+}
+
+input[type=email] {
+    background: none;
+    border-bottom: 1px solid seagreen;
+}
+
+h3 {
+    display: inline-block;
+    margin-top: 30px;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+    background-color: #333;
+}

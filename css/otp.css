@@ -1,0 +1,19 @@
+body {
+    color: #29323f;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.frm {
+    top: 30%;
+    left: 39%;
+}
+input[type="submit"]:hover {
+    background-color: dodgerblue;
+    color: #fff;
+}
+input[type="submit"]:hover .frm {
+    background-color: dodgerblue;
+    color: #fff;
+
+}
